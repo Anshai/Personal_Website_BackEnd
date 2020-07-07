@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt');
-const AdminAccModel = require('./admin-account');
+const AdminAccModel = require('../admin-account');
 
 const saltRounds = 10;
 

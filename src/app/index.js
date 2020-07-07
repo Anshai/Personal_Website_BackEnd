@@ -3,11 +3,11 @@ const mongoose = require('mongoose');
 const express = require('express');
 const cors = require('cors');
 var bodyParser = require('body-parser')
-const adminAccount = require('./routes/admin/development-only/auth-related/admin-account');
+const adminAccount = require('./routes/login/admin-account');
 
 const app = express();
 
-const router = require('./routes/routes');
+const router = require('./routes/router');
 
 
 class App {
